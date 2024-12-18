@@ -11,6 +11,6 @@ router.post('/', createBike);
 
 router.put('/:id', updateBike);
 
-router.delete('/id', deleteBike);
+router.delete('/:id', deleteBike);
 
 module.exports = router;

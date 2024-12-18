@@ -1,4 +1,4 @@
-
+const { getAllBikesService, getBikeByIdService, createBikeService, updateBikeService, deleteBikeService } = require('../services/bikes.service')
 
 const getAllBikes = async (req, res) => {
     try {
